@@ -339,5 +339,128 @@ margin-top: 30px;
 
 /* live-sport section end */
 
+/* Footer Section Start */
 
+.Footer{
+    background-color: #f0eeee;
+    color: #000000;
+    font-weight: bold;
+    border: 2px solid #f0eeee;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
   
+.footer-link ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.footer-link ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer-spacing{
+    max-width: 1000px;
+    margin: auto;   
+}
+
+.footer-line{
+    border-top: 1px solid #d3cccc;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footer-social-icon{
+    margin-top: 30px;
+}
+
+.fa-brands{
+    font-size: 25px;
+    color: #807c7c;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+/* Footer Section End */
+
+/* Login Form Section Start */
+.login-form{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 450px;
+    z-index: 1000;
+    height: 100vh;
+    width: 30%;
+    background-color: #fff;
+    color: #000000;
+    animation: loginanimation 1s;
+}
+
+.login-form-body{
+    padding: 50px;
+}
+
+.login-form-body h2{
+    margin-bottom: 30px;
+    color: #00ed82;
+}
+
+.login-form-body label{
+    font-weight: bold;
+}
+
+.login-form-body input{
+    padding: 20px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-color: #00ed82;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.fa-solid{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+}
+
+.login-reset{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.login-btn-1{
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #00ed82;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.login-footer{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@keyframes loginanimation{
+    from{
+        opacity: 0;
+        color: #0D3640;
+    }
+    to{
+        opacity: 1;
+        color: #00ed82;
+    }
+}
